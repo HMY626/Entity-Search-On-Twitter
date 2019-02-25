@@ -14,10 +14,11 @@ from httplib import BadStatusLine
 from collections import Counter
 from prettytable import PrettyTable
 
-# ----------------------------------
-# 作者: santu                       | 
-# 注意: 需要引用请标明出处             |
-# ----------------------------------
+# ---------------------------------------------------
+# 作者: santu                                        | 
+# 注意: 需要引用请标明出处                              |
+# https://github.com/HMY626/Entity-Search-On-Twitter|            |
+# ---------------------------------------------------
 
 # 以下是我查询的热门话题, 但是Twitter对于api请求次数会做出限制，如果发现有15分钟以后再尝试的提示，那就一个一个搜。
 # screen_names = ['ianozsvald', 'annotateio', 'morconsulting',
